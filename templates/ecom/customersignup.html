@@ -180,7 +180,7 @@
                             </div>
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
                                 <div class="card-body p-4 p-lg-5 text-black">
-                                    <form class="box" method="post" enctype="multipart/form-data">
+                                    <form method="post" enctype="multipart/form-data">
                                         {% csrf_token %}
                                         <h1>Sign Up</h1>
                                         {% render_field userForm.first_name class="form-control" placeholder="First Name" %}
